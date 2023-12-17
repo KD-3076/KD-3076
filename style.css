@@ -114,18 +114,18 @@ section .title::after {
 }
 
 .navbar .logo a {
-  color: blue;
+  color: #fff;
   font-size: 35px;
   font-weight: 600;
 }
 
 .navbar .logo a span {
-  color: crimson;
+  color: seagreen;
   transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span {
-  color: seagreen;
+  color: crimson;
 }
 
 .navbar .menu li {
