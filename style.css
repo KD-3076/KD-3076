@@ -103,7 +103,9 @@ section .title::after {
 }
 
 .navbar.sticky {
-  padding: 35px 0;
+  padding: 15px 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   background: #000;
 }
 
@@ -114,14 +116,14 @@ section .title::after {
 }
 
 .navbar .logo a {
-  color: #fff;
+  color: blueviolet;
   font-size: 35px;
   font-weight: 600;
 }
 
 .navbar .logo a span {
   color: seagreen;
-  transition: all 0.3s ease;
+  transition: all 1.0s ease;
 }
 
 .navbar.sticky .logo a span {
